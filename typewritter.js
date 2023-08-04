@@ -3,10 +3,10 @@ const typewritter = function(string) {
     setTimeout(() => {
       process.stdout.write(string[i]);
       if (i === string.length - 1) {
-        process.stdout.write('\n')
+        process.stdout.write('\n');
       }
     }, i * 50);
   }
-}
+};
 
 typewritter("hello there from lighthouse labs");
